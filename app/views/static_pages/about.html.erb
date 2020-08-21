@@ -1,0 +1,15 @@
+<% provide :title, t(".title") %>
+
+<h1><%= t ".title" %></h1>
+<p>
+  <%= link_to t(".path_name"), Settings.about.rails_link %>
+  <%= t ".part_of" %>
+  <%= link_to t("learn_enough_name"), Settings.about.learn_enough_link %>
+  <%= t ".family_of_tutorials" %>
+  <%= link_to t(".book_name"), Settings.about.rails_link %>
+  <%= t ".and" %>
+  <%= link_to t(".screen_cast"), Settings.about.rails_link %>
+  <%= t ".teach_web" %>
+  <%= link_to t(".rails"), Settings.about.rails_link %>
+  <%= t ".sample_app" %>
+</p>

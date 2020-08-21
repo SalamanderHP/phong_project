@@ -1,0 +1,29 @@
+vi:
+  layouts:
+    application:
+      subtitle: Ruby on Rails - VN
+      en: Tiếng Anh
+      vi: Tiếng Việt
+  static_pages:
+    home:
+      title: Trang chủ
+      page_text: Đây là trang chủ của
+      path_name: Ruby on Rails Tutorial
+      sample: sản phẩm sample
+    help:
+      title: Trợ giúp
+      path_name: Rails Tutorial trợ giúp
+      page_text: Để xem gợi ý, hãy đọc
+      book_path: sách Ruby on Rails Tutorial
+    about:
+      title: Liên hệ
+      path_name: Ruby on Rails Tutorial
+      part_of: một phần của
+      learn_enough_name: Learn Enough
+      family_of_tutorials: là một chuỗi những bài hướng dẫn
+      book_name: sách
+      and: và
+      screen_cast: những video series hướng dẫn
+      teach_web: để hướng dẫn lập trình viên
+      rails: Ruby on Rails
+      sample_app: Đây là sản phẩm sample.
