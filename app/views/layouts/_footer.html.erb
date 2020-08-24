@@ -1,0 +1,16 @@
+<footer class="footer">
+  <small>
+    <%= link_to t(".rails_path_name"), Settings.footer.rails_path %>
+    <%= t ".by" %>
+    <%= link_to t(".michaelhartl"), Settings.footer.author_path %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t(".about"), about_path %></li>
+      <li><%= link_to t(".contact"), contact_path %></li>
+      <li>
+        <%= link_to t(".news_path_name"), Settings.footer.rails_path %>
+      </li>
+    </ul>
+  </nav>
+</footer>

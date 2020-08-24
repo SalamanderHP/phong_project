@@ -2,8 +2,19 @@ vi:
   layouts:
     application:
       subtitle: Ruby on Rails - VN
+    header:
       en: Tiếng Anh
       vi: Tiếng Việt
+      home: Trang chủ
+      help: Trợ giúp
+      login: Đăng nhập
+    footer:
+      rails_path_name: Khóa học Ruby on Rails
+      by: bới
+      michaelhartl: Michael Hartl
+      news_path_name: Tin tức
+      about: Giới thiệu
+      contact: Liên hệ
   static_pages:
     home:
       title: Trang chủ
@@ -16,14 +27,22 @@ vi:
       page_text: Để xem gợi ý, hãy đọc
       book_path: sách Ruby on Rails Tutorial
     about:
-      title: Liên hệ
+      title: Giới thiệu
       path_name: Ruby on Rails Tutorial
       part_of: một phần của
       learn_enough_name: Learn Enough
-      family_of_tutorials: là một chuỗi những bài hướng dẫn
-      book_name: sách
+      family_of_tutorials: là một chuỗi các hướng dẫn
+      book_name: bằng sách
       and: và
-      screen_cast: những video series hướng dẫn
-      teach_web: để hướng dẫn lập trình viên
+      screen_cast: video series
+      teach_web: để dạy cho các lập trình viên
       rails: Ruby on Rails
       sample_app: Đây là sản phẩm sample.
+    contact:
+      title: Liên hệ
+      contact: Liên hệ với website Ruby on Rails
+      path_name: Trang liên hệ
+  users:
+    new:
+      title: Đăng ký
+      signup_text: Đây là trang đăng ký.
