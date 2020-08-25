@@ -21,6 +21,7 @@ en:
       page_text: This is the home page for the
       path_name: Ruby on Rails Tutorial
       sample: sample application
+      signup: Sign up now!
     help:
       title: Help
       path_name: Rails Tutorial Help

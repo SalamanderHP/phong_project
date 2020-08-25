@@ -21,6 +21,7 @@ vi:
       page_text: Đây là trang chủ của
       path_name: Ruby on Rails Tutorial
       sample: sản phẩm sample
+      signup: Đăng nhập ngay
     help:
       title: Trợ giúp
       path_name: Rails Tutorial trợ giúp

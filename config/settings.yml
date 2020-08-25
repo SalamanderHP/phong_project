@@ -10,3 +10,7 @@ about:
   learn_enough_link: https://www.railstutorial.org/
 contact:
   rails_link: https://www.railstutorial.org/contact
+regex:
+  name_max_length: 255
+  email_max_length: 255
+  password_min_length: 6
