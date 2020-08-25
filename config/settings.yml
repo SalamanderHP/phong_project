@@ -1,3 +1,6 @@
+footer:
+  rails_link: https://www.railstutorial.org/
+  author_path: https://www.michaelhartl.com/
 home:
   rails_link: https://www.railstutorial.org/
 help:
@@ -5,3 +8,5 @@ help:
 about:
   rails_link: https://www.railstutorial.org/
   learn_enough_link: https://www.railstutorial.org/
+contact:
+  rails_link: https://www.railstutorial.org/contact

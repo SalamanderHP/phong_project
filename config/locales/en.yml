@@ -2,8 +2,19 @@ en:
   layouts:
     application:
       subtitle: Ruby on Rails Tutorial Sample App
+    header:
       en: English
       vi: Vietnamese
+      home: Home
+      help: Help
+      login: Log in
+    footer:
+      rails_path_name: Ruby on Rails Tutorial
+      by: by
+      michaelhartl: Michael Hartl
+      news_path_name: News
+      about: About
+      contact: Contact
   static_pages:
     home:
       title: Home
@@ -27,3 +38,11 @@ en:
       teach_web: to teach web development with
       rails: Ruby on Rails
       sample_app: This is the sample app for the tutorial.
+    contact:
+      title: Contact
+      contact: Contact the Ruby on Rails Tutorial about the sample app at the
+      path_name: contact page
+  users:
+    new:
+      title: Sign up
+      signup_text: This will be a signup page for new users.
