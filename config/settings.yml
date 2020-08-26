@@ -14,3 +14,4 @@ regex:
   name_max_length: 255
   email_max_length: 255
   password_min_length: 6
+  gravatar_size: 80

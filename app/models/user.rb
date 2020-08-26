@@ -1,4 +1,6 @@
 class User < ApplicationRecord
+  PERMIT_ATTRIBUTES = %i(name email password password_confirmation).freeze
+
   validates :name, presence: true,
     length: {maximum: Settings.regex.name_max_length}
 

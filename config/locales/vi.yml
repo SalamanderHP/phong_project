@@ -44,6 +44,37 @@ vi:
       contact: Liên hệ với website Ruby on Rails
       path_name: Trang liên hệ
   users:
+    not_found: Không tìm thấy người dùng
     new:
       title: Đăng ký
       signup_text: Đây là trang đăng ký.
+      welcome: Chào mừng đến Sample app!
+      error: Lỗi
+      create_btn: Tạo tài khoản mới
+  shared:
+    error_messages:
+      error_contain: Form này chứa
+      error: lỗi
+
+  activerecord:
+    attributes:
+      user:
+        email: Địa chỉ email
+        name: Tên
+        password: Mật khẩu
+        password_confirmation: Xác nhận mật khẩu
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              blank: không được để trống
+              invalid: không hợp lệ
+            name:
+              blank: không được để trống
+            password:
+              blank: không được để trống
+              too_short: quá ngắn
+            password_confirmation:
+              blank: không được để trống
+              confirmation: không khớp

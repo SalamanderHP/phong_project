@@ -95,6 +95,8 @@ h5 {
     <a href="/" class="logoLink artLogo">
       <img alt="Logo" src="/assets/learnenough/logo.png">
       <span>LEARN ENOUGH</span>
+    <a href="/" class="logoLink artLogo"><img alt="Logo" src="/assets/learnenough/logo.png">
+    <span>LEARN ENOUGH</span>
     </a>
     <div class="clear"></div>
   </div>
@@ -104,6 +106,11 @@ h5 {
     <h5>Sorry, there's been a problem</h5>
     <p>The page you were looking for doesn't exist. You may have mistyped the address or the page may have moved.</p>
   </div>
+<div class="wrapper wrapperForm">
+  <h1>Error 404</h1>
+  <h5>Sorry, there's been a problem</h5>
+    <p>The page you were looking for doesn't exist. You may have mistyped the address or the page may have moved.</p>
+</div>
 
 </body>
 </html>
