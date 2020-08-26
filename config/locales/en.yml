@@ -44,6 +44,37 @@ en:
       contact: Contact the Ruby on Rails Tutorial about the sample app at the
       path_name: contact page
   users:
+    not_found: Not found.
     new:
       title: Sign up
       signup_text: This will be a signup page for new users.
+      welcome: Welcome to Sample app!
+      error: Error
+      create_btn: Create my account
+  shared:
+    error_messages:
+      error_contain: This form contain
+      error: error
+
+  activerecord:
+    attributes:
+      user:
+        email: E-mail address
+        name: Name
+        password: Password
+        password_confirmation: Password confirmation
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              blank: is empty
+              invalid: is invalid
+            name:
+              blank: is empty
+            password:
+              blank: is empty
+              too_short: is too short
+            password_confirmation:
+              blank: is empty
+              confirmation: not match
