@@ -7,7 +7,12 @@ vi:
       vi: Tiếng Việt
       home: Trang chủ
       help: Trợ giúp
+      users: Người dùng
       login: Đăng nhập
+      account: Tài khoản
+      profile: Thông tin
+      setting: Cài đặt
+      logout: Đăng xuất
     footer:
       rails_path_name: Khóa học Ruby on Rails
       by: bới
@@ -21,7 +26,7 @@ vi:
       page_text: Đây là trang chủ của
       path_name: Ruby on Rails Tutorial
       sample: sản phẩm sample
-      signup: Đăng nhập ngay
+      signup: Đăng ký ngay
     help:
       title: Trợ giúp
       path_name: Rails Tutorial trợ giúp
@@ -43,6 +48,15 @@ vi:
       title: Liên hệ
       contact: Liên hệ với website Ruby on Rails
       path_name: Trang liên hệ
+  sessions:
+    error: Email hoặc mật khẩu không đúng
+    new:
+      title: Đăng nhập
+      newuser: Người dùng mới?
+      login: Đăng nhập
+      signup_btn: Đăng ký ngay
+      email_label: Email
+      password_label: Mật khẩu
   users:
     not_found: Không tìm thấy người dùng
     new:
@@ -51,6 +65,8 @@ vi:
       welcome: Chào mừng đến Sample app!
       error: Lỗi
       create_btn: Tạo tài khoản mới
+      login: Đã có tài khoản?
+      login_btn: Đăng nhập
   shared:
     error_messages:
       error_contain: Form này chứa

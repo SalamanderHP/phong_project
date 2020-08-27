@@ -7,7 +7,12 @@ en:
       vi: Vietnamese
       home: Home
       help: Help
+      users: Users
       login: Log in
+      account: Account
+      profile: Profile
+      setting: Setting
+      logout: Log out
     footer:
       rails_path_name: Ruby on Rails Tutorial
       by: by
@@ -43,6 +48,15 @@ en:
       title: Contact
       contact: Contact the Ruby on Rails Tutorial about the sample app at the
       path_name: contact page
+  sessions:
+    error: Invalid email/password combination
+    new:
+      title: Log in
+      newuser: New user?
+      login: Log in
+      signup_btn: Sign up now!
+      email_label: Email
+      password_label: Password
   users:
     not_found: Not found.
     new:
@@ -51,6 +65,8 @@ en:
       welcome: Welcome to Sample app!
       error: Error
       create_btn: Create my account
+      login: Already have account?
+      login_btn: Log in
   shared:
     error_messages:
       error_contain: This form contain
