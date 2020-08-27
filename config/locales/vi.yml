@@ -57,6 +57,9 @@ vi:
       signup_btn: Đăng ký ngay
       email_label: Email
       password_label: Mật khẩu
+      remember: Lưu trạng thái đăng nhập
+    destroy:
+      logout: Đã đăng xuất
   users:
     not_found: Không tìm thấy người dùng
     new:
