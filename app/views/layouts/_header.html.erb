@@ -5,7 +5,31 @@
       <ul class="nav navbar-expand navbar-right">
         <li><%= link_to t(".home"), home_path %></li>
         <li><%= link_to t(".help"), help_path %></li>
-        <li><%= link_to t(".login"), signup_path %></li>
+        <% if logged_in? %>
+          <li><%= link_to t(".users"), "#" %></li>
+          <li class="dropdown">
+            <%= link_to "#", class: "dropdown-toggle",
+              "data-toggle": "dropdown" do %>
+              <%= t ".account" %> <b class="caret"></b>
+            <% end %>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <li>
+                <%= link_to t(".profile"), current_user,
+                class:"dropdown-item" %>
+              </li>
+              <li>
+                <%= link_to t(".setting"), "#", class:"dropdown-item" %>
+              </li>
+              <li class="dropdown-divider"></li>
+              <li>
+                <%= link_to t(".logout"), logout_path, method: :delete,
+                class:"dropdown-item" %>
+              </li>
+            </ul>
+          </li>
+        <% else %>
+          <li><%= link_to t(".login"), login_path %></li>
+        <% end %>
       </ul>
     </nav>
   </div>
