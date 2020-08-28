@@ -15,3 +15,5 @@ regex:
   email_max_length: 255
   password_min_length: 6
   gravatar_size: 80
+checkbox:
+  checked: "1"

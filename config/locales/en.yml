@@ -57,6 +57,9 @@ en:
       signup_btn: Sign up now!
       email_label: Email
       password_label: Password
+      remember: Remember me
+    destroy:
+      logout: Logged out
   users:
     not_found: Not found.
     new:
