@@ -15,5 +15,8 @@ regex:
   email_max_length: 255
   password_min_length: 6
   gravatar_size: 80
+  users_gravatar_size: 50
 checkbox:
   checked: "1"
+paginate:
+  pages: 10

@@ -70,6 +70,26 @@ vi:
       create_btn: Tạo tài khoản mới
       login: Đã có tài khoản?
       login_btn: Đăng nhập
+    edit:
+      title: Cài đặt
+      update_btn: Lưu thay đổi
+      error: Cập nhật thất bại
+      success: Đã cập nhật
+      not_logged_in: Vui lòng đăng nhập.
+      change: Thay đổi
+    destroy:
+      destroyed: Người dùng đã được xóa
+      destroy_fail: Không thể xóa người dùng
+    index:
+      title: Danh sách người dùng
+    user:
+      delete: xóa
+      confirm: Bạn có chắc không?
+    form:
+      name: Tên
+      email: Email
+      password: Mật khẩu
+      password_confirmation: Xác nhận mật khẩu
   shared:
     error_messages:
       error_contain: Form này chứa

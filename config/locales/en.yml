@@ -70,6 +70,26 @@ en:
       create_btn: Create my account
       login: Already have account?
       login_btn: Log in
+    edit:
+      title: Edit
+      update_btn: Update
+      error: Update failed
+      success: Updated
+      not_logged_in: Please log in.
+      change: Change
+    destroy:
+      destroyed: User has be deleted!
+      destroy_fail: Can't delete user
+    index:
+      title: Users list
+    user:
+      delete: delete
+      confirm: You sure?
+    form:
+      name: Name
+      email: Email
+      password: Password
+      password_confirmation: Password confirmation
   shared:
     error_messages:
       error_contain: This form contain
