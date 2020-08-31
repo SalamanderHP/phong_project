@@ -1,0 +1,10 @@
+<% provide :title, t(".title") %>
+
+<h1><%= t ".title" %></h1>
+<ul class="users">
+  <%= render @users %>
+</ul>
+
+<div class="d-flex justify-content-center mt-3">
+  <%= paginate @users %>
+</div>

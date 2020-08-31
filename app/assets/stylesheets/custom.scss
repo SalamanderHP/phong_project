@@ -200,3 +200,30 @@ input {
   width: auto;
   margin-left: 0;
 }
+
+.users {
+  list-style: none;
+  margin: 0;
+
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid $white-gray;
+  }
+}
+
+.pagination{
+  .page,
+  .next,
+  .last{
+    a{
+      padding: 10px 15px;
+    }
+  }
+
+  .current{
+    padding: 0px 15px;
+    background-color: blue;
+    color: $white;
+  }
+}
