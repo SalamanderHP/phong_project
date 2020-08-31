@@ -20,3 +20,5 @@ checkbox:
   checked: "1"
 paginate:
   pages: 10
+activation:
+  name_length: 50
