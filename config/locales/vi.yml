@@ -50,6 +50,7 @@ vi:
       path_name: Trang liên hệ
   sessions:
     error: Email hoặc mật khẩu không đúng
+    message: Tài khoản chưa được kích hoạt, kiểm tra email
     new:
       title: Đăng nhập
       newuser: Người dùng mới?
@@ -62,6 +63,7 @@ vi:
       logout: Đã đăng xuất
   users:
     not_found: Không tìm thấy người dùng
+    check_mail: Vui lòng kiểm tra email để xác thực tài khoản
     new:
       title: Đăng ký
       signup_text: Đây là trang đăng ký.
@@ -94,6 +96,19 @@ vi:
     error_messages:
       error_contain: Form này chứa
       error: lỗi
+  mailer:
+    account_activation:  Kích hoạt tài khoản
+  account_activations:
+    edit:
+      success: Tài khoản được kích hoạt thành công!
+      fail: Đường link không chính xác
+  user_mailer:
+    account_activation:
+      title: Sample App
+      hi: Xin chào
+      welcome: Bấm vào đường link để xác thực tài khoản
+      activate: Kích hoạt
+      account_activation: Kích hoạt tài khoản
 
   activerecord:
     attributes:

@@ -50,6 +50,7 @@ en:
       path_name: contact page
   sessions:
     error: Invalid email/password combination
+    message: Account not activated. Check your email.
     new:
       title: Log in
       newuser: New user?
@@ -62,6 +63,7 @@ en:
       logout: Logged out
   users:
     not_found: Not found.
+    check_mail: Please check your email for validation!
     new:
       title: Sign up
       signup_text: This will be a signup page for new users.
@@ -94,6 +96,19 @@ en:
     error_messages:
       error_contain: This form contain
       error: error
+  mailer:
+    account_activation:  Account activation
+  account_activations:
+    edit:
+      success: Account activated!
+      fail: Invalid link
+  user_mailer:
+    account_activation:
+      title: Sample App
+      hi: Hi
+      welcome: Click on the link below to activate your account
+      activate: Activate
+      account_activation: Account activation
 
   activerecord:
     attributes:
