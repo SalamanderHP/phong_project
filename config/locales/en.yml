@@ -59,6 +59,7 @@ en:
       email_label: Email
       password_label: Password
       remember: Remember me
+      forgot_pasword: (Forgot password?)
     destroy:
       logout: Logged out
   users:
@@ -98,6 +99,7 @@ en:
       error: error
   mailer:
     account_activation:  Account activation
+    account_reset: Password reset
   account_activations:
     edit:
       success: Account activated!
@@ -109,6 +111,30 @@ en:
       welcome: Click on the link below to activate your account
       activate: Activate
       account_activation: Account activation
+    password_reset:
+      title: Pasword reset
+      to_reset: To reset your password, click the link below
+      expired: This link will expired within 2 hours
+      ignore: If you did not request your password to be reset, ignore
+      account_reset: Password reset
+  password_resets:
+    new:
+      title: Password reset
+      email: Email
+      submit: Submit
+      expire: This link has expired
+    edit:
+      title: Password edit
+      password: Password
+      confirmation: Password confirmation
+      submit: Submit
+    create:
+      email_send: Form has sended to your email address
+      email_notfound: Email not found
+    update:
+      empty: can't be empty
+      success: Password has been reset.
+      error: Error
 
   activerecord:
     attributes:
