@@ -22,3 +22,5 @@ paginate:
   pages: 10
 activation:
   name_length: 50
+reset_expired:
+  hour: 2

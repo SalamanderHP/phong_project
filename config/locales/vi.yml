@@ -59,6 +59,7 @@ vi:
       email_label: Email
       password_label: Mật khẩu
       remember: Lưu trạng thái đăng nhập
+      forgot_pasword: (Quên mật khẩu?)
     destroy:
       logout: Đã đăng xuất
   users:
@@ -98,6 +99,7 @@ vi:
       error: lỗi
   mailer:
     account_activation:  Kích hoạt tài khoản
+    account_reset: Đặt lại mật khẩu
   account_activations:
     edit:
       success: Tài khoản được kích hoạt thành công!
@@ -109,6 +111,30 @@ vi:
       welcome: Bấm vào đường link để xác thực tài khoản
       activate: Kích hoạt
       account_activation: Kích hoạt tài khoản
+      account_activation: Account activation
+    password_reset:
+      title: Đặt lại mật khẩu
+      to_reset: Để đặt lại mật khẩu, bấm vào link bên dưới
+      expired: Link này hết hạn trong vòng 2 tiếng
+      ignore: Nếu không muốn đặt lại mật khẩu, có thể bỏ qua
+      account_reset: Đặt lại mật khẩu
+  password_resets:
+    new:
+      title: Đặt lại mật khẩu
+      email: Email
+      submit: Gửi
+    edit:
+      title: Sửa mật khẩu
+      password: Mật khẩu
+      confirmation: Xác nhận mật khẩu
+      submit: Lưu
+    create:
+      email_send: Đã gửi đường dẫn về email của bạn
+      email_notfound: Không tìm thấy email
+    update:
+      empty: Không thể trống
+      success: đã được thay đổi
+      error: Có lỗi xảy ra
 
   activerecord:
     attributes:
