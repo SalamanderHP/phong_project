@@ -1,4 +1,6 @@
 class User < ApplicationRecord
+  has_many :microposts, dependent: :destroy
+
   PERMIT_ATTRIBUTES = %i(name email password password_confirmation).freeze
 
   attr_accessor :remember_token, :activation_token, :reset_token
@@ -77,6 +79,10 @@ class User < ApplicationRecord
 
   def password_reset_expired?
     reset_sent_at < Settings.reset_expired.hour.hours.ago
+  end
+
+  def feed
+    microposts
   end
 
   private

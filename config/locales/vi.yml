@@ -27,6 +27,7 @@ vi:
       path_name: Ruby on Rails Tutorial
       sample: sản phẩm sample
       signup: Đăng ký ngay
+      micropost_feed: Bài viết
     help:
       title: Trợ giúp
       path_name: Rails Tutorial trợ giúp
@@ -93,10 +94,18 @@ vi:
       email: Email
       password: Mật khẩu
       password_confirmation: Xác nhận mật khẩu
+    show:
+      micropost: Bài viết
   shared:
     error_messages:
       error_contain: Form này chứa
       error: lỗi
+    micropost_form:
+      post: Đăng
+      new_micropost: Bài viết mới...
+    user_info:
+      view_profile: tài khoản
+      count: bài viết
   mailer:
     account_activation:  Kích hoạt tài khoản
     account_reset: Đặt lại mật khẩu
@@ -135,6 +144,20 @@ vi:
       empty: Không thể trống
       success: đã được thay đổi
       error: Có lỗi xảy ra
+  microposts:
+    type_msg: tệp này không phải hình ảnh
+    size_message: tệp nên có dung lượng nhỏ hơn 5MB
+    create:
+      success: Bài viết đã được tạo thành công
+      fail: Không tạo được bài viết
+    destroy:
+      success: Xóa thành công
+      fail: Không thể xóa
+    micropost:
+      post: Đăng
+      delete: Xóa
+      ago: trước
+      confirm: Xác nhận?
 
   activerecord:
     attributes:
