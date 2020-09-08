@@ -27,6 +27,7 @@ en:
       path_name: Ruby on Rails Tutorial
       sample: sample application
       signup: Sign up now!
+      micropost_feed: Micropost feed
     help:
       title: Help
       path_name: Rails Tutorial Help
@@ -93,10 +94,18 @@ en:
       email: Email
       password: Password
       password_confirmation: Password confirmation
+    show:
+      micropost: Micropost
   shared:
     error_messages:
       error_contain: This form contain
       error: error
+    micropost_form:
+      post: Post
+      new_micropost: Compose new micropost...
+    user_info:
+      view_profile: view my profile
+      count: posts
   mailer:
     account_activation:  Account activation
     account_reset: Password reset
@@ -135,6 +144,20 @@ en:
       empty: can't be empty
       success: Password has been reset.
       error: Error
+  microposts:
+    type_msg: must be a valid image format
+    size_message: should be less than 5MB
+    create:
+      success: Micropost created!
+      fail: Can't create
+    destroy:
+      success: Micropost deleted
+      fail: Delete fail
+    micropost:
+      post: Post
+      delete: Delete
+      ago: ago
+      confirm: Confirm?
 
   activerecord:
     attributes:

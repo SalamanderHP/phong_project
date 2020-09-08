@@ -16,11 +16,18 @@ regex:
   password_min_length: 6
   gravatar_size: 80
   users_gravatar_size: 50
+  logo: 200px
 checkbox:
   checked: "1"
 paginate:
-  pages: 10
+  pages: 5
 activation:
   name_length: 50
 reset_expired:
   hour: 2
+micropost:
+  content_max_lenght: 140
+  type: "image/jpeg image/gif image/png"
+  image_size: 5
+  img_limit: 500
+  image_type_accept: "image/jpeg, image/gif, image/png"
