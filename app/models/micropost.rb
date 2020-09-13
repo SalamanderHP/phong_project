@@ -14,6 +14,7 @@ class Micropost < ApplicationRecord
   }
 
   scope :orderize, ->{order created_at: :desc}
+  scope :feed, ->(ids){where user_id: ids}
 
   delegate :name, to: :user, prefix: true
 

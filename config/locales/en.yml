@@ -96,6 +96,17 @@ en:
       password_confirmation: Password confirmation
     show:
       micropost: Micropost
+    unfollow:
+      unfollow: Unfollow
+    follow:
+      follow: Follow
+    followers:
+      title: Follower
+    following:
+      title: Following
+    show_follow:
+      microposts: Microposts
+      view_profile: view my profile
   shared:
     error_messages:
       error_contain: This form contain
@@ -106,6 +117,9 @@ en:
     user_info:
       view_profile: view my profile
       count: posts
+    stats:
+      following: Followed
+      followers: Followers
   mailer:
     account_activation:  Account activation
     account_reset: Password reset
@@ -158,6 +172,20 @@ en:
       delete: Delete
       ago: ago
       confirm: Confirm?
+  relationships:
+    fail: fail
+    destroy:
+      fail: fail
+    create:
+      fail: fail
+  followers:
+    index:
+      title: Followers
+      not_found: User not found
+  following:
+    index:
+      title: Following
+      not_found: User not found
 
   activerecord:
     attributes:

@@ -10,10 +10,10 @@ class UsersController < ApplicationController
 
   def show
     @microposts = @user
-      .microposts
-      .orderize
-      .page(params[:page])
-      .per Settings.paginate.pages
+                  .microposts
+                  .orderize
+                  .page(params[:page])
+                  .per Settings.paginate.pages
   end
 
   def new

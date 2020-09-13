@@ -4,9 +4,10 @@ class StaticPagesController < ApplicationController
 
     @micropost = current_user.microposts.build
     @feed_items = current_user
-      .feed
-      .page(params[:page])
-      .per Settings.paginate.pages
+                  .feed
+                  .orderize
+                  .page(params[:page])
+                  .per Settings.paginate.pages
   end
 
   def help; end
